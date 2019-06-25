@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC555B822C2E23100AF4E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555B722C2E23100AF4E56 /* AppDelegate.swift */; };
+		FDC555BA22C2E23100AF4E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555B922C2E23100AF4E56 /* ViewController.swift */; };
+		FDC555BD22C2E23100AF4E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC555BB22C2E23100AF4E56 /* Main.storyboard */; };
+		FDC555BF22C2E23300AF4E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC555BE22C2E23300AF4E56 /* Assets.xcassets */; };
+		FDC555C222C2E23300AF4E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC555C022C2E23300AF4E56 /* LaunchScreen.storyboard */; };
+		FDC555CD22C2E23300AF4E56 /* livetags2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555CC22C2E23300AF4E56 /* livetags2Tests.swift */; };
+		FDC555D822C2E23300AF4E56 /* livetags2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555D722C2E23300AF4E56 /* livetags2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC555C922C2E23300AF4E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC555AC22C2E23100AF4E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC555B322C2E23100AF4E56;
+			remoteInfo = livetags2;
+		};
+		FDC555D422C2E23300AF4E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC555AC22C2E23100AF4E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC555B322C2E23100AF4E56;
+			remoteInfo = livetags2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC555B422C2E23100AF4E56 /* livetags2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livetags2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC555B722C2E23100AF4E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDC555B922C2E23100AF4E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDC555BC22C2E23100AF4E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC555BE22C2E23300AF4E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC555C122C2E23300AF4E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDC555C322C2E23300AF4E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC555C822C2E23300AF4E56 /* livetags2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livetags2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC555CC22C2E23300AF4E56 /* livetags2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livetags2Tests.swift; sourceTree = "<group>"; };
+		FDC555CE22C2E23300AF4E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC555D322C2E23300AF4E56 /* livetags2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livetags2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC555D722C2E23300AF4E56 /* livetags2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livetags2UITests.swift; sourceTree = "<group>"; };
+		FDC555D922C2E23300AF4E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC555B122C2E23100AF4E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555C522C2E23300AF4E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555D022C2E23300AF4E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC555AB22C2E23100AF4E56 = {
+			isa = PBXGroup;
+			children = (
+				FDC555B622C2E23100AF4E56 /* livetags2 */,
+				FDC555CB22C2E23300AF4E56 /* livetags2Tests */,
+				FDC555D622C2E23300AF4E56 /* livetags2UITests */,
+				FDC555B522C2E23100AF4E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC555B522C2E23100AF4E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC555B422C2E23100AF4E56 /* livetags2.app */,
+				FDC555C822C2E23300AF4E56 /* livetags2Tests.xctest */,
+				FDC555D322C2E23300AF4E56 /* livetags2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC555B622C2E23100AF4E56 /* livetags2 */ = {
+			isa = PBXGroup;
+			children = (
+				FDC555B722C2E23100AF4E56 /* AppDelegate.swift */,
+				FDC555B922C2E23100AF4E56 /* ViewController.swift */,
+				FDC555BB22C2E23100AF4E56 /* Main.storyboard */,
+				FDC555BE22C2E23300AF4E56 /* Assets.xcassets */,
+				FDC555C022C2E23300AF4E56 /* LaunchScreen.storyboard */,
+				FDC555C322C2E23300AF4E56 /* Info.plist */,
+			);
+			path = livetags2;
+			sourceTree = "<group>";
+		};
+		FDC555CB22C2E23300AF4E56 /* livetags2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC555CC22C2E23300AF4E56 /* livetags2Tests.swift */,
+				FDC555CE22C2E23300AF4E56 /* Info.plist */,
+			);
+			path = livetags2Tests;
+			sourceTree = "<group>";
+		};
+		FDC555D622C2E23300AF4E56 /* livetags2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC555D722C2E23300AF4E56 /* livetags2UITests.swift */,
+				FDC555D922C2E23300AF4E56 /* Info.plist */,
+			);
+			path = livetags2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC555B322C2E23100AF4E56 /* livetags2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC555DC22C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2" */;
+			buildPhases = (
+				FDC555B022C2E23100AF4E56 /* Sources */,
+				FDC555B122C2E23100AF4E56 /* Frameworks */,
+				FDC555B222C2E23100AF4E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = livetags2;
+			productName = livetags2;
+			productReference = FDC555B422C2E23100AF4E56 /* livetags2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC555C722C2E23300AF4E56 /* livetags2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC555DF22C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2Tests" */;
+			buildPhases = (
+				FDC555C422C2E23300AF4E56 /* Sources */,
+				FDC555C522C2E23300AF4E56 /* Frameworks */,
+				FDC555C622C2E23300AF4E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC555CA22C2E23300AF4E56 /* PBXTargetDependency */,
+			);
+			name = livetags2Tests;
+			productName = livetags2Tests;
+			productReference = FDC555C822C2E23300AF4E56 /* livetags2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDC555D222C2E23300AF4E56 /* livetags2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC555E222C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2UITests" */;
+			buildPhases = (
+				FDC555CF22C2E23300AF4E56 /* Sources */,
+				FDC555D022C2E23300AF4E56 /* Frameworks */,
+				FDC555D122C2E23300AF4E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC555D522C2E23300AF4E56 /* PBXTargetDependency */,
+			);
+			name = livetags2UITests;
+			productName = livetags2UITests;
+			productReference = FDC555D322C2E23300AF4E56 /* livetags2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC555AC22C2E23100AF4E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Motoi Kataoka";
+				TargetAttributes = {
+					FDC555B322C2E23100AF4E56 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FDC555C722C2E23300AF4E56 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDC555B322C2E23100AF4E56;
+					};
+					FDC555D222C2E23300AF4E56 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDC555B322C2E23100AF4E56;
+					};
+				};
+			};
+			buildConfigurationList = FDC555AF22C2E23100AF4E56 /* Build configuration list for PBXProject "livetags2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC555AB22C2E23100AF4E56;
+			productRefGroup = FDC555B522C2E23100AF4E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC555B322C2E23100AF4E56 /* livetags2 */,
+				FDC555C722C2E23300AF4E56 /* livetags2Tests */,
+				FDC555D222C2E23300AF4E56 /* livetags2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC555B222C2E23100AF4E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC555C222C2E23300AF4E56 /* LaunchScreen.storyboard in Resources */,
+				FDC555BF22C2E23300AF4E56 /* Assets.xcassets in Resources */,
+				FDC555BD22C2E23100AF4E56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555C622C2E23300AF4E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555D122C2E23300AF4E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC555B022C2E23100AF4E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC555BA22C2E23100AF4E56 /* ViewController.swift in Sources */,
+				FDC555B822C2E23100AF4E56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555C422C2E23300AF4E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC555CD22C2E23300AF4E56 /* livetags2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC555CF22C2E23300AF4E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC555D822C2E23300AF4E56 /* livetags2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC555CA22C2E23300AF4E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC555B322C2E23100AF4E56 /* livetags2 */;
+			targetProxy = FDC555C922C2E23300AF4E56 /* PBXContainerItemProxy */;
+		};
+		FDC555D522C2E23300AF4E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC555B322C2E23100AF4E56 /* livetags2 */;
+			targetProxy = FDC555D422C2E23300AF4E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC555BB22C2E23100AF4E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC555BC22C2E23100AF4E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC555C022C2E23300AF4E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC555C122C2E23300AF4E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC555DA22C2E23300AF4E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC555DB22C2E23300AF4E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC555DD22C2E23300AF4E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC555DE22C2E23300AF4E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDC555E022C2E23300AF4E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livetags2.app/livetags2";
+			};
+			name = Debug;
+		};
+		FDC555E122C2E23300AF4E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/livetags2.app/livetags2";
+			};
+			name = Release;
+		};
+		FDC555E322C2E23300AF4E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = livetags2;
+			};
+			name = Debug;
+		};
+		FDC555E422C2E23300AF4E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23Q2N723L7;
+				INFOPLIST_FILE = livetags2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoi.livetags2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = livetags2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC555AF22C2E23100AF4E56 /* Build configuration list for PBXProject "livetags2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC555DA22C2E23300AF4E56 /* Debug */,
+				FDC555DB22C2E23300AF4E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC555DC22C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC555DD22C2E23300AF4E56 /* Debug */,
+				FDC555DE22C2E23300AF4E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC555DF22C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC555E022C2E23300AF4E56 /* Debug */,
+				FDC555E122C2E23300AF4E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC555E222C2E23300AF4E56 /* Build configuration list for PBXNativeTarget "livetags2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC555E322C2E23300AF4E56 /* Debug */,
+				FDC555E422C2E23300AF4E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC555AC22C2E23100AF4E56 /* Project object */;
+}

@@ -14,6 +14,8 @@
 		FDC555C222C2E23300AF4E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC555C022C2E23300AF4E56 /* LaunchScreen.storyboard */; };
 		FDC555CD22C2E23300AF4E56 /* livetags2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555CC22C2E23300AF4E56 /* livetags2Tests.swift */; };
 		FDC555D822C2E23300AF4E56 /* livetags2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555D722C2E23300AF4E56 /* livetags2UITests.swift */; };
+		FDC555E622C2E2A000AF4E56 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555E522C2E29F00AF4E56 /* CameraController.swift */; };
+		FDC555E822C2E2AB00AF4E56 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC555E722C2E2AB00AF4E56 /* Platform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FDC555D322C2E23300AF4E56 /* livetags2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livetags2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC555D722C2E23300AF4E56 /* livetags2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livetags2UITests.swift; sourceTree = "<group>"; };
 		FDC555D922C2E23300AF4E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC555E522C2E29F00AF4E56 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		FDC555E722C2E2AB00AF4E56 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		FDC555B622C2E23100AF4E56 /* livetags2 */ = {
 			isa = PBXGroup;
 			children = (
+				FDC555E722C2E2AB00AF4E56 /* Platform.swift */,
+				FDC555E522C2E29F00AF4E56 /* CameraController.swift */,
 				FDC555B722C2E23100AF4E56 /* AppDelegate.swift */,
 				FDC555B922C2E23100AF4E56 /* ViewController.swift */,
 				FDC555BB22C2E23100AF4E56 /* Main.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC555E622C2E2A000AF4E56 /* CameraController.swift in Sources */,
 				FDC555BA22C2E23100AF4E56 /* ViewController.swift in Sources */,
+				FDC555E822C2E2AB00AF4E56 /* Platform.swift in Sources */,
 				FDC555B822C2E23100AF4E56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
